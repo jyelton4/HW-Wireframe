@@ -8,34 +8,44 @@ body {
 
 header, nav, section, aside, footer {
     background: #ebebeb;
+    text-align: center;
 }
 
 aside {
     float: right;
     padding: 20px;
     width: 200px;
+    height: 200px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
     margin: 10px;
+    height: 150px;
+    position: absolute;
+    bottom: 1;
+    width: 466px;
+    padding: 10px;
+
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    margin: 10px;
+    padding: 10px;
 }
 
 section {
     width: 496px;
-    /* position: relative; */
-    /* height: 200px; */
+    height: 200px;
+    padding: 20px;
 }
 
 .container {
     margin: auto;
-    width: 1000px;
+    width: 800px;
 }
 
 header {
